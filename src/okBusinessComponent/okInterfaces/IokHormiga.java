@@ -1,6 +1,6 @@
 package okBusinessComponent.okInterfaces;
 
-import okBusinessComponent.okEntities.okHormiga;
+import okBusinessComponent.okHormiga;
 import okBusinessComponent.okServices.okAlimento;
 import okBusinessComponent.okServices.okIngestaNativa;
 

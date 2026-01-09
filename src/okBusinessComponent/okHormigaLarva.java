@@ -1,9 +1,14 @@
-package okBusinessComponent.okEntities;
+package okBusinessComponent;
 
 import okBusinessComponent.okServices.okAlimento;
 import okBusinessComponent.okServices.okIngestaNativa;
 
 public class okHormigaLarva extends okHormiga{
+
+    public okHormigaLarva(Integer idHormiga, String idHormigaTipo, String idSexo, String estado) {
+        super(idHormiga, idHormigaTipo, idSexo, estado);
+        //TODO Auto-generated constructor stub
+    }
 
     @Override
     public Boolean okComer(okAlimento okAlimento) {
